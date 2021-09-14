@@ -1,4 +1,13 @@
 • What is a gitignore file and what should it include for a Java project?
+	A gitignore is a file that removes files from being checked for changes and wont be added and pushed
+	to working branches.
 • What does fast-forward in Git mean?
+	A fast-fast-forward means it gets the most updated changes in a main/dev branch and 
+	updates the branch you merge to so that merging back up to main is less difficult.
 • Why should you have different branches?
+	You should have different working branches to split based on what you or your teammates are working on
+	because you do not want to work on the same branch at the same time. This will reduce issues when 
+	pushing new work to the repo.
 • In a project how many remote Git repositories do you usually have?
+	Only one repo should be needed for a project since the goal is to have the project come together as a whole.
+	Merging seperate projects together will lose continuity since commits are in seperate repositories.
